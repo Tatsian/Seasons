@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  Seasons
+
+  Created by Tatsiana on 01.04.2020.
+  Copyright © 2020 Tatsiana. All rights reserved.
+*/
+// MARK: - A
+
+"Autumn" = "Autumn";
+
+// MARK: - S
+
+"Spring" = "Spring";
+"Summer" = "Summer";
+
+// MARK: - W
+
+"Winter" = "Winter";
