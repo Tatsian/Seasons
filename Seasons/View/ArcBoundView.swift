@@ -19,9 +19,6 @@ class ArcBoundView: UIView {
         let path = UIBezierPath(arcCenter: center, radius: radius, startAngle: CGFloat.pi, endAngle: CGFloat.pi * 2, clockwise: false)
         mask.path = path.cgPath
         layer.mask = mask
-        
     }
-
-  
 }
 
