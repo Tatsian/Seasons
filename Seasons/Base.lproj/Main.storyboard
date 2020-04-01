@@ -124,6 +124,8 @@
                         <outlet property="collectionView" destination="drJ-n7-Yd4" id="RrA-Ge-Ar1"/>
                         <outlet property="headerImage" destination="iQP-Tp-F2v" id="CpF-wH-Aos"/>
                         <outlet property="heightOfHeader" destination="sFP-qP-g2h" id="J2Q-u4-sFI"/>
+                        <outlet property="leftConstraintLength" destination="7Y3-Gx-5Xe" id="yxg-x8-uRt"/>
+                        <outlet property="rightConstraintLength" destination="cgI-6w-GFS" id="RQh-H5-XfW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

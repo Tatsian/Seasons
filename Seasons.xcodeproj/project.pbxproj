@@ -19,6 +19,7 @@
 		5B7E03342433FD8A0094B55A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7E03332433FD8A0094B55A /* String.swift */; };
 		5B7E03382433FF810094B55A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B7E033A2433FF810094B55A /* Localizable.strings */; };
 		5BAA00172432638D007C8EAA /* ArcBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA00162432638D007C8EAA /* ArcBoundView.swift */; };
+		5BD171E92434B749008883D3 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD171E82434B749008883D3 /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		5B7E03392433FF810094B55A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5B7E033B2433FF890094B55A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5BAA00162432638D007C8EAA /* ArcBoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcBoundView.swift; sourceTree = "<group>"; };
+		5BD171E82434B749008883D3 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				5B55A39824321C06007761BA /* MenuItem.swift */,
+				5BD171E82434B749008883D3 /* Menu.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				5B55A3972432132B007761BA /* SeasonsCollectionViewCell.swift in Sources */,
 				5B55A3802432042F007761BA /* AppDelegate.swift in Sources */,
 				5B55A3822432042F007761BA /* SceneDelegate.swift in Sources */,
+				5BD171E92434B749008883D3 /* Menu.swift in Sources */,
 				5B7E03342433FD8A0094B55A /* String.swift in Sources */,
 				5B55A39924321C06007761BA /* MenuItem.swift in Sources */,
 			);

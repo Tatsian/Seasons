@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet var headerImage: UIImageView!
     
+    @IBOutlet weak var leftConstraintLength: NSLayoutConstraint!
+    @IBOutlet weak var rightConstraintLength: NSLayoutConstraint!
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.dataSource = self
@@ -38,7 +40,9 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, 
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let minSide = min(view.frame.size.width, view.frame.size.height)
-        let width = (minSide - 120) / 2
+        let constraintsLength = CGFloat(leftConstraintLength.constant) + CGFloat(rightConstraintLength.constant)
+        let spaceBetweenButtons: CGFloat = 20
+        let width = (minSide - constraintsLength - spaceBetweenButtons) / 2
         return CGSize(width: width, height: width * 1.2)
     }
     
